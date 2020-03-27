@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: lato;
+    color: green;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: lato;
+    color: green;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#SLIDE_BG {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 16s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url(https://wallpapercave.com/wp/ChXXEej.jpg);
+}
+
+@keyframes slideBg {
+    0% {
+        background-image: url(https://wallpapercave.com/wp/ChXXEej.jpg)
+    }
+
+    25% {
+        background-image: url(https://www.jakpost.travel/wimages/large/15-155574_ice-mountain-hd-wallpapers-1080p-high-resolution-snow.jpg)
+    }
+
+    50% {
+        background-image: url(https://wallpaperaccess.com/full/946122.jpg)
+    }
+
+    75% {
+        background-image: url(https://wallpaperaccess.com/full/298406.jpg)
+    }
+
+    100% {
+        background-image: url(https://wcrates.files.wordpress.com/2015/01/1080p-snow-wallpaper.jpg)
+    }
+}
